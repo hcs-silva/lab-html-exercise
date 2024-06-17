@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  font-family: "Poppins";
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  width: auto;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.black-heart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.npm-logo {
+  width: 100px;
+}
+
+.magnifying-glass {
+  width: 50px;
+}
+
+#join {
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 5px 10px;
+  color: black;
+}
+
+#login {
+    text-decoration: none;
+    
+}
+
+.header-form button {
+  background-color: #fb3e44;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
+
+.header-form input {
+  color: rgba(0, 0, 0, 0.05);
+  width: 600px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 10px 20px;
+}
+
+#main {
+  height: 600px;
+  background-color: RGBA(232, 217, 217, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: auto;
+}
+
+#main h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+#main article {
+  margin-bottom: 15px;
+  padding-bottom: 30px;
+}
+
+#main article,
+div {
+  width: 30%;
+}
+
+#main .red {
+  background-color: #fb3b49;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 8px 8px 0 rgba(251, 59, 73, 0.2);
+  margin-right: 15px;
+}
+
+#main .white {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  padding: 10px 20px;
+  margin-left: 15px;
+}
+
+#main div {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+#main div > a {
+  width: 250px;
+}
